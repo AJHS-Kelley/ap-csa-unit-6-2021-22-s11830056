@@ -1,4 +1,4 @@
-// Johann Burke, Array practice, v0.2, 01.24.22 //#endregion
+// Johann Burke, Array practice, v0.4, 01.26.22 //#endregion
 
 
 
@@ -10,18 +10,23 @@ public class JacksonStanton00 {
         double[] doubArr = {1.5,2.6,7,8.9,9.5,10.2,12.3,16.3,20.6,22.4};
 
         strArr[0] = "poodle";
-        System.out.println(strArr[0]);
-        /*for (current_element = 0 ; current_element < strArr.length(); current_element += 1) {
+        //System.out.println(strArr[0]);
 
 
-        }
+
+
         
-        for (i = 0; i < strArr.length(); i++) {
-        }*/
-        for (String i : strArr ) {
+        /*for (current_element = 0 ; current_element < strArr.length(); current_element += 1) {
+        }
+        */
+        for (int i = 0; i < strArr.length; i++) {
+            //System.out.println(i);
+            System.out.println(strArr[i]);
+        }
+        /*for (String i : strArr ) {
             System.out.println(i);
         }
-        
+
     }
 
 /*public static void stringMethod(){
@@ -55,4 +60,4 @@ public static void intMethod(int[] intArr){
 /*public static void doubleMethod(){
 }
 */
-}
+}}
