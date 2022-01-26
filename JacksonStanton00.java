@@ -26,26 +26,26 @@ public class JacksonStanton00 {
         /*for (String i : strArr ) {
             System.out.println(i);
         }
+        */
+    
 
-    }
 
-/*public static void stringMethod(){
 for(int i = 0; i < 10; i++){
     String currentString = strArr[i];
     int stringLength = currentString.length();
     if(stringLength % 2 == 0)
-        System.out.println("the string length is even");
+    System.out.println("the string length is even");
     else if(stringLength % 2 == 1)
     System.out.println("The String Length is odd.");
 
+
+
+
+
+
+
 }
-
-
-
-
-
-}
-
+/*
 public static void intMethod(int[] intArr){
     for(int i = 9; i >= 0; i--){
         int currInt = intArr[i];
