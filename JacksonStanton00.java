@@ -30,7 +30,7 @@ public class JacksonStanton00 {
     
 
 
-for(int i = 0; i < 10; i++){
+/*for(int i = 0; i < 10; i++){
     String currentString = strArr[i];
     int stringLength = currentString.length();
     if(stringLength % 2 == 0)
@@ -54,8 +54,10 @@ public static void intMethod(int[] intArr){
 }
 */
 
+int[][] twoDintArr = {{6,9,-4,2},{9,4,-2,0}};
 
-
+System.out.println(twoDintArr[0][2]);
+System.out.println(twoDintArr[1][2]);
 
 /*public static void doubleMethod(){
 }
