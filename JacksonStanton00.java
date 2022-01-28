@@ -1,4 +1,4 @@
-// Johann Burke, Array practice, v0.4, 01.26.22 //#endregion
+// Johann Burke, Array practice, v0.5, 01.28.22 //#endregion
 
 
 
@@ -58,6 +58,27 @@ int[][] twoDintArr = {{6,9,-4,2},{9,4,-2,0}};
 
 System.out.println(twoDintArr[0][2]);
 System.out.println(twoDintArr[1][2]);
+
+
+for (int i = 0; i < twoDintArr.length ; ++i ) {
+    for (int j = 0; j < twoDintArr[i].length; ++j );
+        System.out.println(twoDintArr[i][j]);
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*public static void doubleMethod(){
 }
